@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;500;600;700;800&family=Karla:wght@400;800&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #1A1B21;
+    width:317px;
+    color: white;
+}
+
+h1{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+h2{
+    font-size: 12.5px;
+    font-weight: 400;
+    font-family: 'Inter';
+    font-style: normal;
+    color: #F3BF99;
+}
+
+h3{
+    font-size: 10.24px;
+    font-weight: 400;
+    font-family: 'Inter';
+    font-style: normal;
+    color: ##F5F5F5;
+}
+
+.photo{
+    width:317px;
+}
+
+.email{
+    background-image: url("../envelope-open-solid.svg");
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-size: 15px; 
+    background-position-y: 7px;
+    background-position-x: 12px;
+    background-color: #FFFFFF;
+    width: 115px;
+    height: 34px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px; 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.linkedin{
+    background-image: url("../linkedin.svg");
+    background-repeat: no-repeat;
+    background-size: 15px; 
+    background-position-y: 7px;
+    background-position-x: 12px;
+    background-color: #5093E2;
+    width: 115px;
+    height: 34px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px; 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    border: none;
+}
+
+
+
+.links {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+
+.mainText{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 36px;
+    margin-right: 34px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+button{
+    margin: 0px 7.7px;
+}
+
+.titleText{
+    font-size: 21px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+.simpleText{
+    font-size: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    
+}
